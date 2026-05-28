@@ -10,8 +10,8 @@ def complete_appeal(greetings: str, separator: str, end: str, name: str) -> str:
     return greetings + separator + " " + name + end
 
 def main():
-    # Пример каррированной функциq, которая посзволяет единожды
-    # задать приветсвие и заnем может быть использована с разными именами
+    # Пример каррированной функции, которая позволяет единожды
+    # задать приветсвие и затем может быть использована с разными именами
 
     appeal_to = appeal("Hello, ")
     print(appeal_to("John"))
